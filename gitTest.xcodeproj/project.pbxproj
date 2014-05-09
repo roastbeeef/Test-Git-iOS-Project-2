@@ -21,6 +21,7 @@
 		C9C9A2AA191D561F003C6D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C9A28C191D561F003C6D87 /* UIKit.framework */; };
 		C9C9A2B2191D561F003C6D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C9A2B0191D561F003C6D87 /* InfoPlist.strings */; };
 		C9C9A2B4191D561F003C6D87 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9A2B3191D561F003C6D87 /* gitTestTests.m */; };
+		C9C9A2C5191D8B62003C6D87 /* rbfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9A2C4191D8B62003C6D87 /* rbfTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C9C9A2AF191D561F003C6D87 /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		C9C9A2B1191D561F003C6D87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9C9A2B3191D561F003C6D87 /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		C9C9A2C3191D8B62003C6D87 /* rbfTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbfTest.h; sourceTree = "<group>"; };
+		C9C9A2C4191D8B62003C6D87 /* rbfTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rbfTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C9C9A29A191D561F003C6D87 /* Main.storyboard */,
 				C9C9A29D191D561F003C6D87 /* rbfViewController.h */,
 				C9C9A29E191D561F003C6D87 /* rbfViewController.m */,
+				C9C9A2C3191D8B62003C6D87 /* rbfTest.h */,
+				C9C9A2C4191D8B62003C6D87 /* rbfTest.m */,
 				C9C9A2A0191D561F003C6D87 /* Images.xcassets */,
 				C9C9A28F191D561F003C6D87 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				C9C9A29F191D561F003C6D87 /* rbfViewController.m in Sources */,
 				C9C9A295191D561F003C6D87 /* main.m in Sources */,
+				C9C9A2C5191D8B62003C6D87 /* rbfTest.m in Sources */,
 				C9C9A299191D561F003C6D87 /* rbfAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				C9C9A2B9191D561F003C6D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9C9A2BA191D561F003C6D87 /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				C9C9A2BC191D561F003C6D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
